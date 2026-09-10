@@ -1,0 +1,1340 @@
+@-webkit-keyframes rotar {
+  0% {
+    transform: rotate(-6deg);
+  }
+  50% {
+    transform: rotate(6deg);
+  }
+  100% {
+    transform: rotate(-6deg);
+  }
+}
+@-moz-keyframes rotar {
+  0% {
+    transform: rotate(-6deg);
+  }
+  50% {
+    transform: rotate(6deg);
+  }
+  100% {
+    transform: rotate(-6deg);
+  }
+}
+@-o-keyframes rotar {
+  0% {
+    transform: rotate(-6deg);
+  }
+  50% {
+    transform: rotate(6deg);
+  }
+  100% {
+    transform: rotate(-6deg);
+  }
+}
+@keyframes rotar {
+  0% {
+    transform: rotate(-6deg);
+  }
+  50% {
+    transform: rotate(6deg);
+  }
+  100% {
+    transform: rotate(-6deg);
+  }
+}
+@-webkit-keyframes rotarb {
+  0% {
+    transform: rotate(-8deg);
+  }
+  50% {
+    transform: rotate(8deg);
+  }
+  100% {
+    transform: rotate(-8deg);
+  }
+}
+@-moz-keyframes rotarb {
+  0% {
+    transform: rotate(-8deg);
+  }
+  50% {
+    transform: rotate(8deg);
+  }
+  100% {
+    transform: rotate(-8deg);
+  }
+}
+@-o-keyframes rotarb {
+  0% {
+    transform: rotate(-8deg);
+  }
+  50% {
+    transform: rotate(8deg);
+  }
+  100% {
+    transform: rotate(-8deg);
+  }
+}
+@keyframes rotarb {
+  0% {
+    transform: rotate(-8deg);
+  }
+  50% {
+    transform: rotate(8deg);
+  }
+  100% {
+    transform: rotate(-8deg);
+  }
+}
+@font-face {
+  font-family: "Muchacho";
+  src: url("../../assets_almacen/fonts/Muchacho.woff2") format("woff2"), url("../../assets_almacen/fonts/Muchacho.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Staatliches";
+  src: url("../../assets_almacen/fonts/Staatliches-Regular.woff2") format("woff2"), url("../../assets_almacen/fonts/Staatliches-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Hackney Vector";
+  src: url("../../assets_almacen/fonts/HackneyPersonalUseOnly.woff2") format("woff2"), url("../../assets_almacen/fonts/HackneyPersonalUseOnly.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  background-color: red;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: rgba(247, 247, 247, 0.968627451);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: black;
+}
+
+.producto-list {
+  height: 43rem;
+  overflow-y: auto;
+}
+
+.datos {
+  padding: 10rem 0;
+}
+.datos .titulo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  /* margin-bottom: 2.5vw; */
+  margin-bottom: 40px;
+}
+.datos .titulo h2 {
+  font-family: "Muchacho";
+  /* font-size: 3vw; */
+  font-size: 74px;
+  font-weight: 300;
+  /* padding: 0 1.5vw; */
+  padding: 0 30px;
+  text-transform: uppercase;
+}
+.datos .menu-datos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.datos .menu-datos li {
+  margin: 0 0.5vw;
+}
+.datos .menu-datos li a {
+  cursor: pointer;
+}
+.datos .menu-datos li a img {
+  /* height: 5vw; */
+  height: 98px;
+}
+.datos .box {
+  position: relative;
+}
+.datos .box .marco {
+  width: 100%;
+}
+.datos .box .deco-principal {
+  width: 30%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translate(-22%, 5%);
+}
+.datos .box .deco-inicio-sesion {
+  width: 25%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translateX(18%);
+}
+.datos .box .chica {
+  width: 25%;
+  position: absolute;
+  left: 10%;
+  top: 13%;
+}
+.datos .box .box_wp {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: calc(100% - 200px);
+  height: calc(100% - 200px);
+  padding: 100px;
+}
+.datos .box h2 {
+  color: #BE0811;
+  font-family: "Hackney Vector";
+  /* font-size: 1.8vw; */
+  font-size: 29px;
+  /* margin-bottom: 1.5vw; */
+  margin-bottom: 10px;
+}
+.datos .box h3 {
+  color: #BE0811;
+  font-family: "Hackney Vector";
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+.datos .box .alert {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  font-family: "Staatliches";
+  color: white;
+  background-color: #BE0811;
+  padding: 5px 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.datos .box form label {
+  color: #BE0811;
+  font-size: 23px;
+  position: relative;
+}
+.datos .box form label .obligatorio {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(100%, -25%);
+}
+.datos .box form input[type=text], .datos .box form input[type=email], .datos .box form input[type=number], .datos .box form select, .datos .box form .link, .datos .box form input[type=password], .datos .box form textarea {
+  color: black;
+  font-size: 20px;
+}
+.datos .box form input[type=text]::-webkit-input-placeholder, .datos .box form input[type=email]::-webkit-input-placeholder, .datos .box form input[type=number]::-webkit-input-placeholder, .datos .box form select::-webkit-input-placeholder, .datos .box form .link::-webkit-input-placeholder, .datos .box form input[type=password]::-webkit-input-placeholder, .datos .box form textarea::-webkit-input-placeholder { /* Edge */
+  color: black;
+}
+.datos .box form input[type=text]:-ms-input-placeholder, .datos .box form input[type=email]:-ms-input-placeholder, .datos .box form input[type=number]:-ms-input-placeholder, .datos .box form select:-ms-input-placeholder, .datos .box form .link:-ms-input-placeholder, .datos .box form input[type=password]:-ms-input-placeholder, .datos .box form textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: black;
+}
+.datos .box form input[type=text]::placeholder, .datos .box form input[type=email]::placeholder, .datos .box form input[type=number]::placeholder, .datos .box form select::placeholder, .datos .box form .link::placeholder, .datos .box form input[type=password]::placeholder, .datos .box form textarea::placeholder {
+  color: black;
+}
+.datos .box form label, .datos .box form input[type=text], .datos .box form input[type=email], .datos .box form input[type=number], .datos .box form select, .datos .box form .link, .datos .box form input[type=password], .datos .box form textarea {
+  width: 100%;
+  font-family: "Staatliches" !important;
+  background-color: transparent;
+}
+.datos .box form label:-webkit-autofill, .datos .box form label:-webkit-autofill:hover, .datos .box form label:-webkit-autofill:focus, .datos .box form label:-webkit-autofill, .datos .box form label:-webkit-autofill:hover, .datos .box form label:-webkit-autofill:focus, .datos .box form label:-webkit-autofill, .datos .box form label:-webkit-autofill:hover, .datos .box form label:-webkit-autofill:focus, .datos .box form input[type=text]:-webkit-autofill, .datos .box form input[type=text]:-webkit-autofill:hover, .datos .box form input[type=text]:-webkit-autofill:focus, .datos .box form input[type=text]:-webkit-autofill, .datos .box form input[type=text]:-webkit-autofill:hover, .datos .box form input[type=text]:-webkit-autofill:focus, .datos .box form input[type=text]:-webkit-autofill, .datos .box form input[type=text]:-webkit-autofill:hover, .datos .box form input[type=text]:-webkit-autofill:focus, .datos .box form input[type=email]:-webkit-autofill, .datos .box form input[type=email]:-webkit-autofill:hover, .datos .box form input[type=email]:-webkit-autofill:focus, .datos .box form input[type=email]:-webkit-autofill, .datos .box form input[type=email]:-webkit-autofill:hover, .datos .box form input[type=email]:-webkit-autofill:focus, .datos .box form input[type=email]:-webkit-autofill, .datos .box form input[type=email]:-webkit-autofill:hover, .datos .box form input[type=email]:-webkit-autofill:focus, .datos .box form input[type=number]:-webkit-autofill, .datos .box form input[type=number]:-webkit-autofill:hover, .datos .box form input[type=number]:-webkit-autofill:focus, .datos .box form input[type=number]:-webkit-autofill, .datos .box form input[type=number]:-webkit-autofill:hover, .datos .box form input[type=number]:-webkit-autofill:focus, .datos .box form input[type=number]:-webkit-autofill, .datos .box form input[type=number]:-webkit-autofill:hover, .datos .box form input[type=number]:-webkit-autofill:focus, .datos .box form select:-webkit-autofill, .datos .box form select:-webkit-autofill:hover, .datos .box form select:-webkit-autofill:focus, .datos .box form select:-webkit-autofill, .datos .box form select:-webkit-autofill:hover, .datos .box form select:-webkit-autofill:focus, .datos .box form select:-webkit-autofill, .datos .box form select:-webkit-autofill:hover, .datos .box form select:-webkit-autofill:focus, .datos .box form .link:-webkit-autofill, .datos .box form .link:-webkit-autofill:hover, .datos .box form .link:-webkit-autofill:focus, .datos .box form .link:-webkit-autofill, .datos .box form .link:-webkit-autofill:hover, .datos .box form .link:-webkit-autofill:focus, .datos .box form .link:-webkit-autofill, .datos .box form .link:-webkit-autofill:hover, .datos .box form .link:-webkit-autofill:focus, .datos .box form input[type=password]:-webkit-autofill, .datos .box form input[type=password]:-webkit-autofill:hover, .datos .box form input[type=password]:-webkit-autofill:focus, .datos .box form input[type=password]:-webkit-autofill, .datos .box form input[type=password]:-webkit-autofill:hover, .datos .box form input[type=password]:-webkit-autofill:focus, .datos .box form input[type=password]:-webkit-autofill, .datos .box form input[type=password]:-webkit-autofill:hover, .datos .box form input[type=password]:-webkit-autofill:focus, .datos .box form textarea:-webkit-autofill, .datos .box form textarea:-webkit-autofill:hover, .datos .box form textarea:-webkit-autofill:focus, .datos .box form textarea:-webkit-autofill, .datos .box form textarea:-webkit-autofill:hover, .datos .box form textarea:-webkit-autofill:focus, .datos .box form textarea:-webkit-autofill, .datos .box form textarea:-webkit-autofill:hover, .datos .box form textarea:-webkit-autofill:focus {
+  background-color: #eae4ca !important;
+  /* color: -internal-light-dark(transparent) !important; */
+  -webkit-box-shadow: 0 0 0 30px #eae4ca inset !important;
+  /* -webkit-text-fill-color: #eae4ca !important; */
+  font-size: 20px;
+  font-family: "Staatliches";
+}
+.datos .box form label:focus, .datos .box form input[type=text]:focus, .datos .box form input[type=email]:focus, .datos .box form input[type=number]:focus, .datos .box form select:focus, .datos .box form .link:focus, .datos .box form input[type=password]:focus, .datos .box form textarea:focus {
+  outline: none;
+}
+.datos .box form textarea {
+  font-size: 20px;
+  font-family: "Staatliches";
+  padding: 5px;
+  background-color: white;
+  background-color: transparent;
+  color: black;
+}
+.datos .box form .link {
+  cursor: pointer;
+  white-space: nowrap;
+}
+.datos .box form textarea {
+  width: 100%;
+  /* min-height: 5vw; */
+  min-height: 70px;
+}
+.datos .box form .line {
+  width: 100%;
+  /* height: 0.5vw; */
+  height: 10px;
+  /* margin-bottom: 1.5vw; */
+  margin-bottom: 10px;
+}
+.datos .box form .form-group .sub-group {
+  display: flex;
+  align-items: center;
+}
+.datos .box form .form-group .sub-group input[type=number] {
+  width: 80%;
+}
+.datos .box form .form-group .sub-group input[type=text] {
+  width: 20%;
+  text-align: center;
+}
+.datos .box form .form-group-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.datos .box form .form-group-2 label {
+  width: auto;
+  text-align: left;
+  white-space: nowrap;
+  margin-right: 10px;
+  font-size: 23px;
+}
+.datos .box form .form-group-2 .line {
+  margin-bottom: 1vw;
+  margin-bottom: 10px;
+}
+.datos .box form .form-group-2 h2 {
+  margin-bottom: 1vw;
+  margin-bottom: 30px;
+}
+.datos .box form .form-group-2 .sec {
+  width: 90%;
+}
+.datos .box form button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 0;
+  background-color: transparent;
+  transform: translateX(25%);
+  cursor: pointer;
+}
+.datos .box form button img {
+  height: 7vw;
+  height: 140px;
+}
+.datos .box .inicio-sesion {
+  width: calc(100% - 200px);
+  height: calc(100% - 200px);
+  /* padding: 6vw; */
+  padding: 100px;
+}
+.datos .box .inicio-sesion label, .datos .box .inicio-sesion input[type=text], .datos .box .inicio-sesion input[type=password], .datos .box .inicio-sesion input[type=email], .datos .box .inicio-sesion input[type=number], .datos .box .inicio-sesion select, .datos .box .inicio-sesion .link {
+  font-size: 1.7vw;
+  font-size: 34px;
+  background-color: transparent;
+}
+.datos .box .inicio-sesion button {
+  position: relative;
+  bottom: inherit;
+  right: inherit;
+  transform: translateX(0);
+}
+.datos .box .inicio-sesion .mis-datos {
+  margin-left: 32%;
+  margin-top: 10%;
+}
+.datos .box .inicio-sesion .mis-datos .line {
+  margin-bottom: 15px;
+}
+.datos .box .inicio-sesion .font-17 {
+  font-size: 17px;
+}
+.datos .box .inicio-sesion .alert {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  font-family: "Staatliches";
+  color: white;
+  background-color: #BE0811;
+  padding: 5px 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.datos .box .mis-datos .line {
+  margin-bottom: 15px;
+}
+.datos .box .mis-datos .container-check {
+  width: 40%;
+  margin: 0 auto;
+}
+.datos .box .mis-datos, .datos .box .mis-direcciones, .datos .box .min-sec {
+  width: 60%;
+  padding-top: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+.datos .box .mis-direcciones {
+  width: 50%;
+  padding-top: 19px;
+}
+.datos .box .mis-direcciones h2 {
+  font-size: 33px;
+  margin-bottom: 30px;
+}
+.datos .box .mis-direcciones .direcciones {
+  list-style: none;
+  max-height: 72px;
+  overflow-y: auto;
+}
+.datos .box .mis-direcciones .direcciones li {
+  font-family: "Staatliches";
+  color: #BE0811;
+  cursor: pointer;
+  font-size: 14px;
+}
+.datos .box .mis-direcciones form textarea {
+  max-height: 70px;
+}
+.datos .box .mis-direcciones .direccion-editar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.datos .box .mis-direcciones .direccion-editar a {
+  font-family: "Staatliches";
+  color: #BE0811;
+  font-size: 12px;
+  margin-left: 10px;
+}
+.datos .box .mis-pedidos {
+  width: 60%;
+  margin: auto;
+}
+.datos .box .mis-pedidos .content-productos {
+  height: 310px;
+  overflow-y: auto;
+  margin-bottom: 1.2rem;
+}
+.datos .box .mis-pedidos .producto {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  /* margin-bottom: 1.5vw; */
+  margin-bottom: 15px;
+}
+.datos .box .mis-pedidos .producto img {
+  width: 50%;
+}
+.datos .box .mis-pedidos .producto .txt {
+  text-align: left;
+  padding: 10px;
+}
+.datos .box .mis-pedidos .producto .txt p {
+  font-family: "Hackney Vector";
+  font-size: 14px;
+  color: black;
+}
+.datos .box .mis-pedidos .envio {
+  font-size: 1rem;
+  color: black;
+  font-family: "Hackney Vector";
+}
+.datos .box .mis-pedidos .time-line {
+  position: relative;
+}
+.datos .box .mis-pedidos .time-line svg {
+  /* width: 100%; */
+  height: 7vw;
+  height: 20px;
+}
+.datos .box .mis-pedidos .time-line path, .datos .box .mis-pedidos .time-line rect {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.datos .box .mis-pedidos .time-line .cont-linea-tiempo {
+  position: relative;
+}
+.datos .box .mis-pedidos .time-line .cont-linea-tiempo .linea-progress {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  top: 6px;
+  left: 0;
+  z-index: 0;
+}
+.datos .box .mis-pedidos .time-line .cont-linea-tiempo .linea-progress-active {
+  content: "";
+  position: absolute;
+  width: 1%;
+  height: 2px;
+  background-color: #bf232b;
+  top: 6px;
+  left: 0;
+  z-index: 1;
+}
+.datos .box .mis-pedidos .time-line .linea-tiempo {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  list-style: none;
+}
+.datos .box .mis-pedidos .time-line .linea-tiempo li.linea {
+  width: 26.6%;
+  position: relative;
+}
+.datos .box .mis-pedidos .time-line .linea-tiempo li.linea:nth-child(1) {
+  width: 10%;
+  text-align: left;
+}
+.datos .box .mis-pedidos .time-line .linea-tiempo li.linea:nth-last-child(1) {
+  width: 10%;
+  text-align: right;
+}
+.datos .box .mis-pedidos .time-line .linea-tiempo li.linea svg {
+  /* position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translatex(-50%); */
+}
+.datos .box .mis-pedidos .time-line .linea-tiempo li.linea span {
+  width: 100%;
+  white-space: nowrap;
+  font-family: "Hackney Vector";
+  font-size: 20px;
+  color: black;
+}
+.datos .box .mis-pedidos .time-line .linea-tiempo li.linea.active path, .datos .box .mis-pedidos .time-line .linea-tiempo li.linea.active rect, .datos .box .mis-pedidos .time-line .linea-tiempo li.linea.active-past path, .datos .box .mis-pedidos .time-line .linea-tiempo li.linea.active-past rect {
+  fill: #bf232b;
+}
+.datos .box .mis-pedidos .time-line .linea-tiempo li.linea.active span, .datos .box .mis-pedidos .time-line .linea-tiempo li.linea.active-past span {
+  color: #bf232b;
+}
+
+.remodal.direccion {
+  width: 500px;
+}
+.remodal.direccion .content {
+  background-color: #eae4ca;
+  padding: 2rem;
+  margin: 0 auto;
+}
+.remodal.direccion .content form h2 {
+  color: #BE0811;
+  font-family: "Hackney Vector";
+  font-size: 29px;
+  margin-bottom: 15px;
+}
+.remodal.direccion .content form label {
+  color: #BE0811;
+  font-size: 23px;
+  position: relative;
+}
+.remodal.direccion .content form label .obligatorio {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(100%, -25%);
+}
+.remodal.direccion .content form input[type=text], .remodal.direccion .content form input[type=email], .remodal.direccion .content form input[type=number], .remodal.direccion .content form select, .remodal.direccion .content form .link, .remodal.direccion .content form input[type=password], .remodal.direccion .content form textarea {
+  color: black;
+  font-size: 20px;
+}
+.remodal.direccion .content form input[type=text]::-webkit-input-placeholder, .remodal.direccion .content form input[type=email]::-webkit-input-placeholder, .remodal.direccion .content form input[type=number]::-webkit-input-placeholder, .remodal.direccion .content form select::-webkit-input-placeholder, .remodal.direccion .content form .link::-webkit-input-placeholder, .remodal.direccion .content form input[type=password]::-webkit-input-placeholder, .remodal.direccion .content form textarea::-webkit-input-placeholder { /* Edge */
+  color: black;
+}
+.remodal.direccion .content form input[type=text]:-ms-input-placeholder, .remodal.direccion .content form input[type=email]:-ms-input-placeholder, .remodal.direccion .content form input[type=number]:-ms-input-placeholder, .remodal.direccion .content form select:-ms-input-placeholder, .remodal.direccion .content form .link:-ms-input-placeholder, .remodal.direccion .content form input[type=password]:-ms-input-placeholder, .remodal.direccion .content form textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: black;
+}
+.remodal.direccion .content form input[type=text]::placeholder, .remodal.direccion .content form input[type=email]::placeholder, .remodal.direccion .content form input[type=number]::placeholder, .remodal.direccion .content form select::placeholder, .remodal.direccion .content form .link::placeholder, .remodal.direccion .content form input[type=password]::placeholder, .remodal.direccion .content form textarea::placeholder {
+  color: black;
+}
+.remodal.direccion .content form label, .remodal.direccion .content form input[type=text], .remodal.direccion .content form input[type=email], .remodal.direccion .content form input[type=number], .remodal.direccion .content form select, .remodal.direccion .content form .link, .remodal.direccion .content form input[type=password], .remodal.direccion .content form textarea {
+  width: 100%;
+  font-family: "Staatliches" !important;
+  background-color: transparent;
+}
+.remodal.direccion .content form label:-webkit-autofill, .remodal.direccion .content form label:-webkit-autofill:hover, .remodal.direccion .content form label:-webkit-autofill:focus, .remodal.direccion .content form label:-webkit-autofill, .remodal.direccion .content form label:-webkit-autofill:hover, .remodal.direccion .content form label:-webkit-autofill:focus, .remodal.direccion .content form label:-webkit-autofill, .remodal.direccion .content form label:-webkit-autofill:hover, .remodal.direccion .content form label:-webkit-autofill:focus, .remodal.direccion .content form input[type=text]:-webkit-autofill, .remodal.direccion .content form input[type=text]:-webkit-autofill:hover, .remodal.direccion .content form input[type=text]:-webkit-autofill:focus, .remodal.direccion .content form input[type=text]:-webkit-autofill, .remodal.direccion .content form input[type=text]:-webkit-autofill:hover, .remodal.direccion .content form input[type=text]:-webkit-autofill:focus, .remodal.direccion .content form input[type=text]:-webkit-autofill, .remodal.direccion .content form input[type=text]:-webkit-autofill:hover, .remodal.direccion .content form input[type=text]:-webkit-autofill:focus, .remodal.direccion .content form input[type=email]:-webkit-autofill, .remodal.direccion .content form input[type=email]:-webkit-autofill:hover, .remodal.direccion .content form input[type=email]:-webkit-autofill:focus, .remodal.direccion .content form input[type=email]:-webkit-autofill, .remodal.direccion .content form input[type=email]:-webkit-autofill:hover, .remodal.direccion .content form input[type=email]:-webkit-autofill:focus, .remodal.direccion .content form input[type=email]:-webkit-autofill, .remodal.direccion .content form input[type=email]:-webkit-autofill:hover, .remodal.direccion .content form input[type=email]:-webkit-autofill:focus, .remodal.direccion .content form input[type=number]:-webkit-autofill, .remodal.direccion .content form input[type=number]:-webkit-autofill:hover, .remodal.direccion .content form input[type=number]:-webkit-autofill:focus, .remodal.direccion .content form input[type=number]:-webkit-autofill, .remodal.direccion .content form input[type=number]:-webkit-autofill:hover, .remodal.direccion .content form input[type=number]:-webkit-autofill:focus, .remodal.direccion .content form input[type=number]:-webkit-autofill, .remodal.direccion .content form input[type=number]:-webkit-autofill:hover, .remodal.direccion .content form input[type=number]:-webkit-autofill:focus, .remodal.direccion .content form select:-webkit-autofill, .remodal.direccion .content form select:-webkit-autofill:hover, .remodal.direccion .content form select:-webkit-autofill:focus, .remodal.direccion .content form select:-webkit-autofill, .remodal.direccion .content form select:-webkit-autofill:hover, .remodal.direccion .content form select:-webkit-autofill:focus, .remodal.direccion .content form select:-webkit-autofill, .remodal.direccion .content form select:-webkit-autofill:hover, .remodal.direccion .content form select:-webkit-autofill:focus, .remodal.direccion .content form .link:-webkit-autofill, .remodal.direccion .content form .link:-webkit-autofill:hover, .remodal.direccion .content form .link:-webkit-autofill:focus, .remodal.direccion .content form .link:-webkit-autofill, .remodal.direccion .content form .link:-webkit-autofill:hover, .remodal.direccion .content form .link:-webkit-autofill:focus, .remodal.direccion .content form .link:-webkit-autofill, .remodal.direccion .content form .link:-webkit-autofill:hover, .remodal.direccion .content form .link:-webkit-autofill:focus, .remodal.direccion .content form input[type=password]:-webkit-autofill, .remodal.direccion .content form input[type=password]:-webkit-autofill:hover, .remodal.direccion .content form input[type=password]:-webkit-autofill:focus, .remodal.direccion .content form input[type=password]:-webkit-autofill, .remodal.direccion .content form input[type=password]:-webkit-autofill:hover, .remodal.direccion .content form input[type=password]:-webkit-autofill:focus, .remodal.direccion .content form input[type=password]:-webkit-autofill, .remodal.direccion .content form input[type=password]:-webkit-autofill:hover, .remodal.direccion .content form input[type=password]:-webkit-autofill:focus, .remodal.direccion .content form textarea:-webkit-autofill, .remodal.direccion .content form textarea:-webkit-autofill:hover, .remodal.direccion .content form textarea:-webkit-autofill:focus, .remodal.direccion .content form textarea:-webkit-autofill, .remodal.direccion .content form textarea:-webkit-autofill:hover, .remodal.direccion .content form textarea:-webkit-autofill:focus, .remodal.direccion .content form textarea:-webkit-autofill, .remodal.direccion .content form textarea:-webkit-autofill:hover, .remodal.direccion .content form textarea:-webkit-autofill:focus {
+  background-color: #eae4ca !important;
+  /* color: -internal-light-dark(transparent) !important; */
+  -webkit-box-shadow: 0 0 0 30px #eae4ca inset !important;
+  /* -webkit-text-fill-color: #eae4ca !important; */
+  font-size: 20px;
+  font-family: "Staatliches";
+}
+.remodal.direccion .content form label:focus, .remodal.direccion .content form input[type=text]:focus, .remodal.direccion .content form input[type=email]:focus, .remodal.direccion .content form input[type=number]:focus, .remodal.direccion .content form select:focus, .remodal.direccion .content form .link:focus, .remodal.direccion .content form input[type=password]:focus, .remodal.direccion .content form textarea:focus {
+  outline: none;
+}
+.remodal.direccion .content form textarea {
+  font-size: 20px;
+  font-family: "Staatliches";
+  padding: 5px;
+  background-color: white;
+  background-color: transparent;
+  color: black;
+}
+.remodal.direccion .content form .link {
+  cursor: pointer;
+  white-space: nowrap;
+}
+.remodal.direccion .content form textarea {
+  width: 100%;
+  /* min-height: 5vw; */
+  min-height: 70px;
+}
+.remodal.direccion .content form .line {
+  width: 100%;
+  /* height: 0.5vw; */
+  height: 10px;
+  /* margin-bottom: 1.5vw; */
+  margin-bottom: 10px;
+}
+.remodal.direccion .content form .form-group .sub-group {
+  display: flex;
+  align-items: center;
+}
+.remodal.direccion .content form .form-group .sub-group input[type=number] {
+  width: 80%;
+}
+.remodal.direccion .content form .form-group .sub-group input[type=text] {
+  width: 20%;
+  text-align: center;
+}
+.remodal.direccion .content form button {
+  background-color: transparent;
+  border: 0;
+  margin: 2rem 0;
+}
+.remodal.direccion .content form button img {
+  height: 6rem;
+}
+
+.registrarme {
+  width: 80%;
+  margin: 0 auto;
+}
+.registrarme .box .box_wp {
+  width: calc(100% - 184px);
+  height: calc(100% - 184px);
+  padding: 94px;
+}
+.registrarme .box form {
+  padding: 70px 0;
+}
+.registrarme .box form button {
+  position: relative;
+  bottom: inherit;
+  right: inherit;
+  transform: translateX(0);
+  margin: 15px 0;
+}
+.registrarme .box form button img {
+  height: 92px;
+}
+.registrarme .deco-izquierda, .registrarme .deco-derecha {
+  width: 20%;
+  position: absolute;
+  z-index: 1;
+}
+.registrarme .deco-izquierda {
+  width: 40%;
+  left: 0;
+  top: 0;
+  transform: translateX(-25%);
+}
+.registrarme .deco-derecha {
+  width: 25%;
+  right: 0;
+  bottom: 0;
+}
+.registrarme .alert {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  font-family: "Staatliches";
+  color: white;
+  background-color: #BE0811;
+  padding: 5px 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.pagar .box {
+  width: 819px;
+  max-width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+.pagar .box .box-wp {
+  position: absolute;
+  width: calc(100% - 120px);
+  height: calc(100% - 120px);
+  top: 30px;
+  left: 30px;
+  padding: 30px;
+}
+.pagar .linea {
+  width: 100%;
+}
+.pagar .fondo {
+  width: 100%;
+}
+.pagar .producto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+.pagar .producto .img {
+  width: 50%;
+  padding: 10px;
+}
+.pagar .producto .img img {
+  width: 100%;
+}
+.pagar .producto .txt {
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.pagar .producto .txt .p1 {
+  width: 50%;
+  text-align: left;
+}
+.pagar .producto .txt .p1 h3 {
+  color: white;
+  font-family: "Hackney Vector";
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.pagar .producto .txt .p1 a {
+  display: inline-block;
+}
+.pagar .producto .txt .p1 a img {
+  height: 2rem;
+}
+.pagar .producto .txt .cantidad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagar .producto .txt .cantidad a, .pagar .producto .txt .cantidad p, .pagar .producto .txt .cantidad input {
+  width: 33px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #bf232b;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+.pagar .producto .txt .cantidad input {
+  border: 0;
+  height: 32px;
+}
+.pagar .producto .txt .cantidad a {
+  cursor: pointer;
+}
+.pagar .producto .txt .cantidad a img {
+  width: 12px;
+}
+.pagar .producto .txt .cantidad a:nth-child(1) {
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.pagar .producto .txt .cantidad a:nth-last-child(1) {
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.pagar .direccion-envio {
+  padding: 15px;
+}
+.pagar .direccion-envio p {
+  font-size: 20px;
+  color: white;
+  font-family: "Hackney Vector";
+  margin: 10px;
+}
+.pagar .opciones {
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.pagar .opciones .content-enviar {
+  display: inline-block;
+}
+.pagar .opciones .valores p {
+  font-family: "Hackney Vector";
+  font-size: 25px;
+  width: 50%;
+  padding: 5px;
+  color: white;
+  text-align: left;
+}
+.pagar .opciones .flash-warning {
+  color: #bf232b;
+  font-size: 18px;
+  background-image: url("../images/fondo-boton.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 15px;
+  margin: 15px;
+}
+.pagar .opciones .btn-checkout {
+  background-image: url("../images/fondo-boton.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  font-size: 24px;
+  color: #bf232b;
+  font-family: "Hackney Vector";
+  padding: 15px;
+  margin: 15px;
+  /* border: 1px dashed white; */
+}
+.pagar .opciones .btn-checkout span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.pagar .opciones .btn-checkout .cantidad {
+  position: relative;
+  margin-right: 10px;
+}
+.pagar .opciones .btn-checkout .cantidad b {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+}
+.pagar .opciones .btn-checkout .cantidad img {
+  height: 50px;
+}
+
+.btn-mis-datos {
+  background-image: url("../images/fondo-boton.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+  font-size: 24px;
+  color: #bf232b;
+  font-family: "Hackney Vector";
+  padding: 15px;
+  margin: 15px;
+  /* border: 1px dashed white; */
+}
+.btn-mis-datos span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.btn-mis-datos .cantidad {
+  position: relative;
+  margin-right: 10px;
+}
+.btn-mis-datos .cantidad b {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+}
+.btn-mis-datos .cantidad img {
+  height: 50px;
+}
+
+/* The container */
+.container-check {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  font-size: 17px !important;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container-check p {
+  font-family: "Hackney Vector";
+  margin-left: 1%;
+}
+.container-check textarea {
+  border: 1px solid #BE0811;
+}
+
+/* Hide the browser's default checkbox */
+.container-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border: 1px solid #BE0811;
+}
+
+/* On mouse-over, add a grey background color */
+.container-check:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container-check input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container-check input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container-check .checkmark:after {
+  /* left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/SVG/check.svg");
+  background-position: center;
+  background-size: 90% auto;
+  background-repeat: no-repeat;
+}
+
+/* The container */
+.container-w-check {
+  width: auto !important;
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container-w-check a {
+  color: #BE0811;
+  font-family: "Staatliches";
+  position: relative;
+}
+.container-w-check a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #BE0811;
+}
+
+/* Hide the browser's default checkbox */
+.container-w-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.container-w-check .checkmark {
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container-w-check:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container-w-check input:checked ~ .checkmark {
+  background-color: #2196F3;
+  background-color: white;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.container-w-check .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container-w-check input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container-w-check .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.font-17 {
+  font-size: 17px;
+}
+
+.border-dashed {
+  border: 1px dashed white;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.margin-0 {
+  margin: 0 !important;
+}
+
+.w-75 {
+  width: 75% !important;
+}
+
+.w-65 {
+  width: 65% !important;
+}
+
+.w-50 {
+  width: 50% !important;
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
+.w-35 {
+  width: 35% !important;
+}
+
+.w-30 {
+  width: 30% !important;
+}
+
+.w-25 {
+  width: 25% !important;
+}
+
+.w-10 {
+  width: 10% !important;
+}
+
+.w-5 {
+  width: 5% !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mb-1 {
+  margin-bottom: 1rem !important;
+}
+
+.mb-2 {
+  margin-bottom: 1.5rem !important;
+}
+
+.only-mobile {
+  display: none;
+}
+
+.only-desktop {
+  display: block;
+}
+
+@media only screen and (max-width: 812px) {
+  .remodal.direccion {
+    width: 350px;
+  }
+  .pagar .fondo {
+    display: none;
+  }
+  .pagar .box .box-wp {
+    width: calc(100% - 30px);
+    /* height: calc(100% - 60px); */
+    height: auto;
+    /* top: 15px; */
+    top: inherit;
+    /* left: 15px; */
+    left: inherit;
+    position: relative;
+    padding: 15px;
+  }
+  .pagar .box .box-wp .producto {
+    flex-wrap: wrap;
+  }
+  .pagar .box .box-wp .producto .img, .pagar .box .box-wp .producto .txt {
+    width: calc(50% - 20px);
+  }
+  .pagar .box .box-wp .producto .form-group {
+    width: 100%;
+  }
+  .pagar .box .box-wp .producto .form-group textarea {
+    width: 100%;
+  }
+  .pagar .box .box-wp .producto .txt {
+    display: block;
+  }
+  .pagar .box .box-wp .producto .txt .p1 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .pagar .box .box-wp .producto .txt .p1 h3 {
+    font-size: 18px;
+  }
+  .pagar .box .box-wp .producto .txt .p1 a img {
+    height: 2rem;
+  }
+  .pagar .box .box-wp .producto .txt .cantidad a, .pagar .box .box-wp .producto .txt .cantidad p {
+    width: 35px;
+    height: 35px;
+    font-size: 15px;
+  }
+  .pagar .box .box-wp .producto .txt .cantidad a img {
+    width: 15px;
+  }
+  .datos {
+    padding: 0;
+  }
+  .datos .box .box_wp {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    position: relative;
+    top: inherit;
+    left: inherit;
+    padding: 6rem 0 4rem 0;
+    background-color: #eae4ca;
+  }
+  .datos .box .box_wp .menu-datos {
+    /* position: relative;
+    top: inherit;
+    left: inherit; */
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 1rem;
+  }
+  .datos .box .box_wp .menu-datos li {
+    width: 30%;
+  }
+  .datos .box .box_wp .menu-datos li a {
+    width: 100%;
+    display: inline-block;
+  }
+  .datos .box .box_wp .menu-datos li a img {
+    width: auto;
+    max-width: 100%;
+    height: 4rem;
+  }
+  .datos .box form label, .datos .box form input[type=text], .datos .box form input[type=email], .datos .box form input[type=number], .datos .box form select {
+    font-size: 1.5rem;
+  }
+  .datos .box form button {
+    right: inherit;
+    left: 50%;
+    transform: translate(-50%, 60%);
+  }
+  .datos .box form button img {
+    width: 100%;
+    /* height: 6rem; */
+    height: inherit;
+  }
+  .datos .box form .line {
+    height: 1rem;
+  }
+  .datos .box form .form-group-2 label {
+    font-size: 1.5rem;
+  }
+  .datos .box form .container-check {
+    align-items: flex-start;
+  }
+  .datos .box form .checkmark {
+    /* width: 2rem;
+    height: 2rem; */
+    width: 30px;
+    height: 30px;
+  }
+  .datos .box .mis-datos, .datos .box .mis-direcciones, .datos .box .mis-pedidos {
+    width: 90%;
+  }
+  .datos .box .mis-pedidos .producto .txt p {
+    font-size: 1.2rem;
+  }
+  .datos .box .mis-pedidos .time-line svg {
+    height: 10vw;
+  }
+  .datos .box .marco, .datos .box .deco-principal {
+    display: none;
+  }
+  .datos .box h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .datos .box .inicio-sesion .mis-datos {
+    margin-left: auto;
+  }
+  .datos .box .inicio-sesion button {
+    left: inherit;
+    margin: 30px 0;
+  }
+  .datos .box .inicio-sesion .deco-deco {
+    display: none;
+  }
+  .datos .box .inicio-sesion .d-flex {
+    display: block;
+  }
+  .datos .box .deco-inicio-sesion {
+    display: none;
+  }
+  .datos .titulo {
+    margin-bottom: 2.5rem;
+  }
+  .datos .titulo h2 {
+    font-size: 2rem;
+  }
+  .datos .titulo .deco {
+    height: 2rem;
+  }
+  .registrarme {
+    width: 90%;
+  }
+  .registrarme .box .box_wp {
+    padding: 10px 0;
+  }
+  .registrarme .box .min-sec {
+    width: 90%;
+  }
+  .registrarme .box .min-sec .deco-deco {
+    display: none;
+  }
+  .registrarme .box form {
+    padding: 10px 0;
+  }
+  .registrarme .box form button {
+    left: inherit;
+    transform: translate(0%, 0%);
+  }
+  .registrarme .box form button img {
+    height: auto;
+  }
+  .only-mobile {
+    display: block;
+  }
+  .only-desktop {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

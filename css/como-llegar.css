@@ -1,0 +1,271 @@
+.comoLlegar {
+  width: 100%;
+  min-height: 100vh;
+  float: left;
+  font-size: 0;
+  padding-top: 50px; }
+  .comoLlegar .wrapper {
+    width: 95%; }
+  .comoLlegar .col {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center; }
+    .comoLlegar .col:nth-of-type(1) {
+      width: 28%;
+      margin-left: 2%; }
+    .comoLlegar .col:nth-of-type(2) {
+      width: 70%; }
+    .comoLlegar .col .op_fix {
+      width: 100%;
+      display: inline-block; }
+      .comoLlegar .col .op_fix .marinero {
+        width: 125%;
+        display: inline-block;
+        position: relative;
+        z-index: 2; }
+      .comoLlegar .col .op_fix .c_m {
+        width: 100%;
+        display: inline-block;
+        position: relative; }
+      .comoLlegar .col .op_fix .map {
+        width: 80%;
+        height: 34vh;
+        display: inline-block;
+        border: 10px solid #ffaa00;
+        position: relative;
+        z-index: 1;
+        margin: 0px 0 40px 0; }
+      .comoLlegar .col .op_fix .deco_map {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 0; }
+    .comoLlegar .col .direccion {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 40px 2%;
+      text-align: center;
+      position: relative;
+      padding: 20px; }
+      .comoLlegar .col .direccion .borde {
+        position: absolute;
+        width: 100%;
+        height: 70%;
+        top: 30%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 0;
+        border: 10px solid #ffaa00; }
+      .comoLlegar .col .direccion .logo_localidad {
+        width: 80%;
+        display: inline-block;
+        position: relative;
+        z-index: 1; }
+      .comoLlegar .col .direccion .item {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        cursor: pointer; }
+        .comoLlegar .col .direccion .item img {
+          width: 100%;
+          display: inline-block; }
+        .comoLlegar .col .direccion .item .d1 {
+          width: 100%;
+          display: inline-block;
+          position: relative; }
+          .comoLlegar .col .direccion .item .d1 h2, .comoLlegar .col .direccion .item .d1 p {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin: 0; }
+          .comoLlegar .col .direccion .item .d1 h2 {
+            font: 0.9vw 'racing_sans_oneregular';
+            color: black;
+            text-transform: uppercase; }
+          .comoLlegar .col .direccion .item .d1 p {
+            color: black;
+            font: 18px 'arbutus_slabregular'; }
+      .comoLlegar .col .direccion.t1 {
+        width: 20%; }
+      .comoLlegar .col .direccion.t2 {
+        width: 55%; }
+        .comoLlegar .col .direccion.t2 .borde {
+          width: 100%;
+          height: 100%;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%); }
+        .comoLlegar .col .direccion.t2 .wr {
+          width: 80%;
+          display: inline-block;
+          vertical-align: middle; }
+          .comoLlegar .col .direccion.t2 .wr.wr:nth-of-type(2) {
+            width: 20%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0; }
+            .comoLlegar .col .direccion.t2 .wr.wr:nth-of-type(2) .logo_localidad {
+              width: auto;
+              max-height: 80%;
+              position: absolute;
+              top: 50%;
+              left: 0;
+              transform: translate(-50%, -50%); }
+          .comoLlegar .col .direccion.t2 .wr.wr:nth-of-type(3) {
+            margin-left: 20%; }
+        .comoLlegar .col .direccion.t2 .item {
+          position: relative; }
+          .comoLlegar .col .direccion.t2 .item .d1 {
+            width: 50%;
+            position: absolute;
+            height: 100%;
+            top: 0;
+            left: 0; }
+            .comoLlegar .col .direccion.t2 .item .d1.d1:nth-of-type(2) {
+              left: 50%; }
+      .comoLlegar .col .direccion.t3 {
+        width: 40%; }
+        .comoLlegar .col .direccion.t3 .borde {
+          width: 100%;
+          height: 85%;
+          top: 15%;
+          left: 50%;
+          transform: translateX(-50%); }
+        .comoLlegar .col .direccion.t3 .logo_localidad {
+          width: 110%;
+          margin-left: -5%; }
+        .comoLlegar .col .direccion.t3 .item {
+          position: relative; }
+          .comoLlegar .col .direccion.t3 .item .d1 {
+            width: 50%;
+            position: absolute;
+            height: 100%;
+            top: 0;
+            left: 0; }
+            .comoLlegar .col .direccion.t3 .item .d1.d1:nth-of-type(2) {
+              left: 50%; }
+  .comoLlegar .deco {
+    width: 20%;
+    position: absolute;
+    top: 29%;
+    right: 0;
+    z-index: 1; }
+  .comoLlegar .cerrar_menu {
+    display: none; }
+
+.comoLlegar .col .direccion .item .wazeMap {
+  position: absolute;
+  top: 15%;
+  width: 2.5vw;
+  left: 25%; }
+  .comoLlegar .col .direccion .item .wazeMap:nth-of-type(2) {
+    left: 55%; }
+  .comoLlegar .col .direccion .item .wazeMap img {
+    width: 100%; }
+
+.t2 .d2, .t3 .d2 {
+  position: relative;
+  z-index: 100; }
+  .t2 .d2 .wazeMap, .t3 .d2 .wazeMap {
+    position: absolute;
+    top: 0%;
+    left: 49%;
+    transform: translate(-125%, -130%); }
+    .t2 .d2 .wazeMap:nth-of-type(2), .t3 .d2 .wazeMap:nth-of-type(2) {
+      transform: translate(-3%, -130%); }
+    .t2 .d2 .wazeMap img, .t3 .d2 .wazeMap img {
+      width: 4.5vh; }
+
+/*style mobile*/
+@media (max-width: 45em) {
+  .comoLlegar .col .direccion .item .wazeMap {
+    position: absolute;
+    top: 15%;
+    width: 10vw;
+    left: 25%; }
+    .comoLlegar .col .direccion .item .wazeMap:nth-of-type(2) {
+      left: 55%; }
+    .comoLlegar .col .direccion .item .wazeMap img {
+      width: 100%; }
+  .t2 .d2, .t3 .d2 {
+    position: relative;
+    z-index: 100; }
+    .t2 .d2 .wazeMap, .t3 .d2 .wazeMap {
+      position: relative;
+      top: 0%;
+      left: 0%;
+      transform: translate(-125%, -130%); }
+      .t2 .d2 .wazeMap:nth-of-type(2), .t3 .d2 .wazeMap:nth-of-type(2) {
+        transform: translate(-3%, -130%); }
+      .t2 .d2 .wazeMap img, .t3 .d2 .wazeMap img {
+        width: 4.5vh; }
+  .comoLlegar .deco {
+    display: none; }
+  .comoLlegar .cerrar_menu {
+    width: 10%;
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    z-index: 10; }
+    .comoLlegar .cerrar_menu img {
+      width: 100%;
+      display: inline-block; }
+  .comoLlegar .col:nth-of-type(1), .comoLlegar .col:nth-of-type(2) {
+    width: 100%; }
+  .comoLlegar .col:nth-of-type(1) {
+    width: 90%;
+    position: fixed;
+    top: 50%;
+    left: -100%;
+    transform: translateY(-50%);
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 10;
+    margin-left: 0; }
+    .comoLlegar .col:nth-of-type(1) .op_fix .marinero {
+      width: 100%; }
+  .comoLlegar .col .direccion .logo_localidad {
+    width: 60%;
+    margin-bottom: 15px; }
+  .comoLlegar .col .direccion.t1, .comoLlegar .col .direccion.t2, .comoLlegar .col .direccion.t3 {
+    width: 60%;
+    margin: 20px 20%;
+    padding: 0; }
+  .comoLlegar .col .direccion .item .d1 h2 {
+    width: 80%;
+    font-size: 12px; }
+  .comoLlegar .col .direccion .item .d1 p {
+    font-size: 11px; }
+  .comoLlegar .col .direccion.t2 {
+    width: 76%;
+    margin: 20px 10%;
+    padding: 0 2%; }
+    .comoLlegar .col .direccion.t2 .borde {
+      width: 100%;
+      height: 85%;
+      top: 15%;
+      left: 50%;
+      transform: translateX(-50%); }
+    .comoLlegar .col .direccion.t2 .wr.wr:nth-of-type(2) {
+      width: 100%;
+      position: relative;
+      left: inherit;
+      top: inherit;
+      height: auto; }
+      .comoLlegar .col .direccion.t2 .wr.wr:nth-of-type(2) .logo_localidad {
+        width: 40%;
+        position: relative;
+        top: inherit;
+        left: inherit;
+        transform: translate(0%, 0%); }
+    .comoLlegar .col .direccion.t2 .wr.wr:nth-of-type(3) {
+      width: 100%;
+      margin-left: 0; }
+  .comoLlegar .col .direccion.t3 {
+    width: 76%;
+    margin: 20px 10%;
+    padding: 0 2%; } }

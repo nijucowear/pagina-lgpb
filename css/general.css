@@ -1,0 +1,359 @@
+.wrapper {
+  width: 1024px;
+  margin: 0 auto; }
+
+.widthWrap {
+  float: left;
+  position: relative;
+  width: 100%; }
+
+html, body {
+  font: 12px Times New Roman, serif;
+  color: #fff; }
+
+.hd {
+  /*visibility: hidden;*/ }
+
+.fixed_top {
+  position: fixed !important;
+  top: 100px;
+  left: 0; }
+
+a {
+  color: #f7931e;
+  font: 1em Times New Roman, serif; }
+
+hr {
+  display: inline-block;
+  width: 100%;
+  margin: 20px 0; }
+
+p {
+  font-size: 1em;
+  width: 100%;
+  display: inline-block; }
+
+h1 {
+  font-size: 1.4em; }
+
+h2 {
+  font-size: 1.2em; }
+
+.radius {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px; }
+
+.shadow {
+  position: relative;
+  -webkit-box-shadow: 0px 1px 5px 0px #555;
+  -moz-box-shadow: 0px 1px 5px 0px #555;
+  box-shadow: 0px 1px 5px 0px #555; }
+
+.shadowInset {
+  box-shadow: inset 0px 0px 12px 0px #333;
+  -webkit-box-shadow: inset 0px 0px 12px 0px #333;
+  -moz-box-shadow: inset 0px 0px 12px 0px #333;
+  -o-box-shadow: inset 0px 0px 12px 0px #333; }
+
+.shadowInset2 {
+  box-shadow: inset 0px 0px 12px 0px #888;
+  -webkit-box-shadow: inset 0px 0px 12px 0px #888;
+  -moz-box-shadow: inset 0px 0px 12px 0px #888;
+  -o-box-shadow: inset 0px 0px 12px 0px #888; }
+
+.textShadow {
+  text-shadow: 3px 3px 5px #969696; }
+
+.t_center {
+  text-align: center !important; }
+
+.bg_black {
+  background: #000 !important; }
+
+.t_orange {
+  color: #f67634 !important; }
+
+.t_red {
+  color: #ce3132 !important; }
+
+.t_green {
+  color: #cfeb31 !important; }
+
+.t_black {
+  color: #222 !important; }
+
+.t_white {
+  color: #fff !important; }
+
+.hidden {
+  overflow: hidden; }
+
+.alertify-message {
+  color: #333; }
+
+.nav {
+  height: 20px;
+  margin: 0px auto;
+  padding: 0;
+  position: absolute;
+  top: -75px;
+  right: 30px;
+  width: auto;
+  z-index: 2000;
+  display: inline-block; }
+  .nav li {
+    float: left;
+    height: 20px;
+    list-style: none outside none;
+    width: 20px;
+    margin: 0px 3px;
+    box-shadow: inset 0px 0px 4px 0px #333;
+    -webkit-box-shadow: inset 0px 0px 4px 0px #333;
+    -moz-box-shadow: inset 0px 0px 4px 0px #333;
+    -o-box-shadow: inset 0px 0px 4px 0px #333; }
+    .nav li a {
+      position: relative;
+      float: left;
+      width: 10px;
+      height: 10px;
+      display: inline-block;
+      background: #cacaca;
+      border: 5px solid #cacaca; }
+    .nav li.activeSlide a, .nav li a:HOVER {
+      background: #558b00 !important; }
+  .nav a:focus {
+    outline: medium none;
+    outline: medium none; }
+
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+  float: left;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 1px 0px; }
+  .fancy .wrap {
+    display: inline-block;
+    position: relative;
+    font: 40px 'f2';
+    color: #fff; }
+    .fancy .wrap span {
+      float: left; }
+    .fancy .wrap:before, .fancy .wrap:after {
+      content: "";
+      position: absolute;
+      height: 5px;
+      border-top: 3px solid #fff;
+      top: 50%;
+      width: 1000px; }
+
+.fancyWhite .wrap:before, .fancyWhite .wrap:after {
+  border-top: 4px solid #fff !important; }
+
+.fancy .wrap:before {
+  right: 100%;
+  margin-right: 25px; }
+
+.fancy .wrap:after {
+  left: 100%;
+  margin-left: 25px; }
+
+.text {
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  margin: 0px 0 0 0; }
+  .text p {
+    min-height: 12px;
+    text-align: justify;
+    margin: 10px 0 0px 0;
+    font-size: 1.2em; }
+  .text ul, .text ol {
+    float: left;
+    width: 85%;
+    height: auto;
+    margin: 15px 0px 15px 0px;
+    padding: 0px 0px 0px 15%; }
+  .text ul li {
+    float: right;
+    width: 90%;
+    height: auto;
+    padding: 0px 0px 0px 0px;
+    font: 1em Times New Roman, serif;
+    color: #555;
+    text-align: justify;
+    margin-bottom: 5px;
+    list-style-type: disc; }
+  .text ol li {
+    float: right;
+    width: 90%;
+    height: auto;
+    padding: 0px 0px 0px 0px;
+    font: 1em Times New Roman, serif;
+    color: #555;
+    text-align: justify;
+    margin-bottom: 5px;
+    list-style-type: decimal; }
+
+/* REGISTRO CSS */
+.registro {
+  float: left;
+  width: 40%;
+  position: relative;
+  margin: 10% 30% 0; }
+  .registro h1 {
+    font: 1.6em 'f2';
+    color: #00abd4;
+    margin: 0 0 10px 0;
+    text-align: left; }
+  .registro p {
+    font: 1em Times New Roman, serif;
+    color: #333;
+    margin: 0 0 10px 0;
+    text-align: left; }
+  .registro form {
+    float: left;
+    width: 100%;
+    margin: 15px 0%;
+    text-align: center; }
+    .registro form label {
+      float: left;
+      width: 40%;
+      height: 20px;
+      margin: 0px 0 10px 0;
+      font: 1em Times New Roman, serif;
+      color: #333;
+      text-align: left; }
+    .registro form input[type="text"], .registro form input[type="password"] {
+      float: left;
+      width: 53%;
+      height: 20px;
+      margin: 0px 0 10px 5%;
+      background: #e6e6e6;
+      text-align: left; }
+    .registro form input[type="checkbox"] {
+      float: left;
+      width: 20px;
+      height: 20px;
+      border: none;
+      margin: 0px 0 10px 5%; }
+    .registro form a {
+      display: inline-block;
+      width: 100%;
+      margin: 0 0 10px 0; }
+    .registro form input[type="submit"] {
+      display: inline-block;
+      width: auto;
+      padding: 3px 10px;
+      border: none;
+      background: #00abd4;
+      margin: 15px 0 10px 0%;
+      cursor: pointer;
+      color: #fff; }
+      .registro form input[type="submit"]:hover {
+        background: #005e6b; }
+
+/* fin regsitro - css para estilosSuccess*/
+.showLogos {
+  display: inline-block;
+  width: 30%;
+  margin: 0 10px; }
+
+.footer {
+  z-index: 100; }
+  .footer .lugar {
+    width: 100%;
+    display: inline-block;
+    text-align: center; }
+    .footer .lugar p {
+      width: 100%;
+      font: 34px 'muchacho';
+      color: #fff; }
+      .footer .lugar p #findBtn {
+        display: inline-block !important;
+        vertical-align: middle;
+        margin: 7px 0 0 0px;
+        height: 40px;
+        width: auto;
+        cursor: pointer; }
+
+.disclaimer-cookies {
+  background-color: #3f3e38;
+  border: 0px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 1rem; }
+  .disclaimer-cookies .contenido {
+    width: 70%;
+    padding: 1rem; }
+    .disclaimer-cookies .contenido .content {
+      display: inline-flex !important;
+      padding-bottom: 2rem; }
+    .disclaimer-cookies .contenido p {
+      width: 100%;
+      padding-left: 1rem;
+      font-size: 2em !important;
+      color: #fff; }
+    .disclaimer-cookies .contenido a {
+      color: #e9111d; }
+  .disclaimer-cookies button {
+    background-color: #e9111d;
+    border: 0px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1vw;
+    border-radius: 40px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0.8rem; }
+
+.controls > span {
+  display: inline-block;
+  margin: 10px; }
+
+.size1 input {
+  font-size: 8pt; }
+
+.size2 input {
+  font-size: 10pt; }
+
+.size3 input {
+  font-size: 14pt; }
+
+.right input, .left input {
+  width: 3em; }
+
+.vertical input {
+  width: 1.5em; }
+
+.horizontal input {
+  width: 2em; }
+
+.c_reserva {
+  cursor: pointer; }
+
+.menu_footer_movil {
+  display: none !important; }
+
+#ui-datepicker-div {
+  z-index: 100001 !important; }
+
+/*.remodal {
+  max-width: 900px !important;
+}*/
+.noview {
+  display: none !important; }
+
+/*
+.ui-widget-header {
+  background: url("../images/basic/back_maderita_w.png") !important;
+}
+*/
+.styledCheckbox, .styledRadio {
+  display: inline-block;
+  vertical-align: middle; }

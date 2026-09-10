@@ -1,0 +1,392 @@
+
+
+
+@font-face {
+    font-family: 'lucida_brightdemibold';
+    src: url('../fonts/ufonts.com_lucida-bright-demibold-webfont.eot');
+    src: url('../fonts/ufonts.com_lucida-bright-demibold-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ufonts.com_lucida-bright-demibold-webfont.woff2') format('woff2'),
+    url('../fonts/ufonts.com_lucida-bright-demibold-webfont.woff') format('woff'),
+    url('../fonts/ufonts.com_lucida-bright-demibold-webfont.ttf') format('truetype'),
+    url('../fonts/ufonts.com_lucida-bright-demibold-webfont.svg#lucida_brightdemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'carnedeandres';
+    src: url('../fonts/andres_carne_de_res_0-webfont.eot');
+    src: url('../fonts/andres_carne_de_res_0-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/andres_carne_de_res_0-webfont.woff2') format('woff2'),
+    url('../fonts/andres_carne_de_res_0-webfont.woff') format('woff'),
+    url('../fonts/andres_carne_de_res_0-webfont.ttf') format('truetype'),
+    url('../fonts/andres_carne_de_res_0-webfont.svg#carnedeandresv.2medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'f1';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+    url('../fonts/opensans-regular-webfont.woff') format('woff'),
+    url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'f2';
+    src: url('../fonts/opensans-semibold-webfont.eot');
+    src: url('../fonts/opensans-semibold-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans-semibold-webfont.woff2') format('woff2'),
+    url('../fonts/opensans-semibold-webfont.woff') format('woff'),
+    url('../fonts/opensans-semibold-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'muchacho';
+    src: url('../fonts/muchacho-webfont.eot');
+    src: url('../fonts/muchacho-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/muchacho-webfont.woff2') format('woff2'),
+    url('../fonts/muchacho-webfont.woff') format('woff'),
+    url('../fonts/muchacho-webfont.ttf') format('truetype'),
+    url('../fonts/muchacho-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'combustion_ii_brknormal';
+    src: url('../fonts/combusii-webfont.eot');
+    src: url('../fonts/combusii-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/combusii-webfont.woff2') format('woff2'),
+    url('../fonts/combusii-webfont.woff') format('woff'),
+    url('../fonts/combusii-webfont.ttf') format('truetype'),
+    url('../fonts/combusii-webfont.svg#combustion_ii_brknormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'combustion_plain_brknormal';
+    src: url('../fonts/combuspl-webfont.eot');
+    src: url('../fonts/combuspl-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/combuspl-webfont.woff2') format('woff2'),
+    url('../fonts/combuspl-webfont.woff') format('woff'),
+    url('../fonts/combuspl-webfont.ttf') format('truetype'),
+    url('../fonts/combuspl-webfont.svg#combustion_plain_brknormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/*
+@font-face {
+    font-family: 'combustion_i_brknormal';
+    src: url('../fonts/combusti-webfont.eot');
+    src: url('../fonts/combusti-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/combusti-webfont.woff2') format('woff2'),
+    url('../fonts/combusti-webfont.woff') format('woff'),
+    url('../fonts/combusti-webfont.ttf') format('truetype'),
+    url('../fonts/combusti-webfont.svg#combustion_i_brknormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*/
+
+@font-face {
+    font-family: 'combustion_i_brknormal';
+    src: url('../fonts/combusti-webfont.woff2') format('woff2'),
+    url('../fonts/combusti-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'combustion_tall_brknormal';
+    src: url('../fonts/combustt-webfont.eot');
+    src: url('../fonts/combustt-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/combustt-webfont.woff2') format('woff2'),
+    url('../fonts/combustt-webfont.woff') format('woff'),
+    url('../fonts/combustt-webfont.ttf') format('truetype'),
+    url('../fonts/combustt-webfont.svg#combustion_tall_brknormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'combustion_wide_brknormal';
+    src: url('../fonts/combustw-webfont.eot');
+    src: url('../fonts/combustw-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/combustw-webfont.woff2') format('woff2'),
+    url('../fonts/combustw-webfont.woff') format('woff'),
+    url('../fonts/combustw-webfont.ttf') format('truetype'),
+    url('../fonts/combustw-webfont.svg#combustion_wide_brknormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'sexsmithregular';
+    src: url('../fonts/sexsmith-webfont.eot');
+    src: url('../fonts/sexsmith-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/sexsmith-webfont.woff2') format('woff2'),
+    url('../fonts/sexsmith-webfont.woff') format('woff'),
+    url('../fonts/sexsmith-webfont.ttf') format('truetype'),
+    url('../fonts/sexsmith-webfont.svg#sexsmithregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Cardenio Modern Std';
+    src: url('../fonts/Cardenio%20Modern%20Std.eot');
+    src: url('../fonts/Cardenio%20Modern%20Stdd41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Cardenio%20Modern%20Std.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CardenioModern-Reg';
+    src: url('../fonts/CardenioModern-Reg.woff') format('woff'),
+    url('../fonts/CardenioModern-Reg.ttf') format('truetype'),
+    url('../fonts/CardenioModern-Reg.svg#CardenioModern-Reg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cardenio Modern Bold';
+    src: url('../fonts/Cardenio%20Modern%20Bold.eot');
+    src: url('../fonts/Cardenio%20Modern%20Boldd41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Cardenio%20Modern%20Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CardenioModern-Bold';
+    src: url('../fonts/CardenioModern-Bold.woff') format('woff'),
+    url('../fonts/CardenioModern-Bold.ttf') format('truetype'),
+    url('../fonts/CardenioModern-Bold.svg#CardenioModern-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CFJackStory-Regular';
+    src: url('../fonts/CFJackStory-Regular.eot');
+    src: url('../fonts/CFJackStory-Regulard41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CFJackStory-Regular.woff2') format('woff2'),
+    url('../fonts/CFJackStory-Regular.woff') format('woff'),
+    url('../fonts/CFJackStory-Regular.ttf') format('truetype'),
+    url('../fonts/CFJackStory-Regular.svg#CFJackStory-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'gravitybold';
+    src: url('../fonts/gravity-bold-webfont.eot');
+    src: url('../fonts/gravity-bold-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gravity-bold-webfont.woff2') format('woff2'),
+    url('../fonts/gravity-bold-webfont.woff') format('woff'),
+    url('../fonts/gravity-bold-webfont.ttf') format('truetype'),
+    url('../fonts/gravity-bold-webfont.svg#gravitybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'gravitybook';
+    src: url('../fonts/gravity-book-webfont.eot');
+    src: url('../fonts/gravity-book-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gravity-book-webfont.woff2') format('woff2'),
+    url('../fonts/gravity-book-webfont.woff') format('woff'),
+    url('../fonts/gravity-book-webfont.ttf') format('truetype'),
+    url('../fonts/gravity-book-webfont.svg#gravitybook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'gravityitalic';
+    src: url('../fonts/gravity-italic-webfont.eot');
+    src: url('../fonts/gravity-italic-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gravity-italic-webfont.woff2') format('woff2'),
+    url('../fonts/gravity-italic-webfont.woff') format('woff'),
+    url('../fonts/gravity-italic-webfont.ttf') format('truetype'),
+    url('../fonts/gravity-italic-webfont.svg#gravityitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gravityregular';
+    src: url('../fonts/gravity-regular-webfont.eot');
+    src: url('../fonts/gravity-regular-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gravity-regular-webfont.woff2') format('woff2'),
+    url('../fonts/gravity-regular-webfont.woff') format('woff'),
+    url('../fonts/gravity-regular-webfont.ttf') format('truetype'),
+    url('../fonts/gravity-regular-webfont.svg#gravityregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'eggmedium';
+    src: url('../fonts/egg-webfont.eot');
+    src: url('../fonts/egg-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/egg-webfont.woff2') format('woff2'),
+    url('../fonts/egg-webfont.woff') format('woff'),
+    url('../fonts/egg-webfont.ttf') format('truetype'),
+    url('../fonts/egg-webfont.svg#eggmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'yanone_kaffeesatzlight';
+    src: url('../fonts/yanonekaffeesatz-light-webfont.eot');
+    src: url('../fonts/yanonekaffeesatz-light-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/yanonekaffeesatz-light-webfont.woff2') format('woff2'),
+    url('../fonts/yanonekaffeesatz-light-webfont.woff') format('woff'),
+    url('../fonts/yanonekaffeesatz-light-webfont.ttf') format('truetype'),
+    url('../fonts/yanonekaffeesatz-light-webfont.svg#yanone_kaffeesatzlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'impactregular';
+    src: url('../fonts/impact-webfont.eot');
+    src: url('../fonts/impact-webfontd41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/impact-webfont.woff2') format('woff2'),
+    url('../fonts/impact-webfont.woff') format('woff'),
+    url('../fonts/impact-webfont.ttf') format('truetype'),
+    url('../fonts/impact-webfont.svg#impactregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family:'niagara_Solid';
+    src: url('../fonts/Niagara%20Solid.eot');
+    src: url('../fonts/Niagara%20Solidd41d.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Niagara%20Solid.woff2') format('woff2'),
+    url('../fonts/Niagara%20Solid.woff') format('woff'),
+    url('../fonts/Niagara%20Solid.svg#Niagara Solid') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: condensed;
+    unicode-range: U+0020-02DC;
+}
+
+@font-face {
+    font-family: 'antonregular';
+    src: url('../fonts/anton-regular-webfont.woff2') format('woff2'),
+    url('../fonts/anton-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'racing_sans_oneregular';
+    src: url('../fonts/racingsansone-regular-webfont.woff2') format('woff2'),
+    url('../fonts/racingsansone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fjallaoneregular';
+    src: url('../fonts/fjallaone-regular-webfont.woff2') format('woff2'),
+    url('../fonts/fjallaone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sansita_oneregular';
+    src: url('../fonts/sansitaone-webfont.woff2') format('woff2'),
+    url('../fonts/sansitaone-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'arbutus_slabregular';
+    src: url('../fonts/arbutusslab-regular-webfont.woff2') format('woff2'),
+    url('../fonts/arbutusslab-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'carerra_jonesregular';
+    src: url('../fonts/carerra-jones-webfont.woff2') format('woff2'),
+    url('../fonts/carerra-jones-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Microsoft Himalaya';
+    src: url('../fonts/MicrosoftHimalaya.eot');
+    src: url('../fonts/MicrosoftHimalayad41d.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MicrosoftHimalaya.woff2') format('woff2'),
+        url('../fonts/MicrosoftHimalaya.woff') format('woff'),
+        url('../fonts/MicrosoftHimalaya.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

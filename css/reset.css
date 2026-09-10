@@ -1,0 +1,81 @@
+body, p, blockquote {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+  a img {
+    border: none; }
+
+iframe {
+  border: none; }
+
+/* Headers
+------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 100%; }
+
+/* Lists
+------------------------------*/
+ul, ol, dl, li, dt, dd {
+  margin: 0;
+  padding: 0; }
+
+/* Links
+------------------------------*/
+/* Forms
+------------------------------*/
+form {
+  margin: 0;
+  padding: 0; }
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #000; }
+
+legend {
+  padding: 0;
+  color: #000; }
+
+input, textarea {
+  margin: 0;
+  padding: 1px;
+  font-size: 100%;
+  font-family: inherit;
+  border: none; }
+
+select {
+  margin: 0;
+  padding: 1px;
+  font-size: 100%;
+  font-family: inherit;
+  border: none;
+  padding: 0; }
+
+.fix_w {
+  float: left;
+  height: auto;
+  position: relative;
+  width: 100%; }
+
+.clearfix {
+  display: inline-block; }
+  .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0; }
+
+html[xmlns] .clearfix {
+  display: block; }
+
+* html .clearfix {
+  height: 1%; }
+
+.hd {
+  /*display: none;*/ }

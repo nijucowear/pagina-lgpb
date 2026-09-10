@@ -1,0 +1,28 @@
+.swiper-container {
+  height: 100%; }
+  .swiper-container .swiper-slide img {
+    max-height: 100%;
+    max-width: 100%; }
+  .swiper-container .swiper-pagination-bullet {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle; }
+    .swiper-container .swiper-pagination-bullet.swiper-pagination-bullet-active {
+      background-color: #d0131b;
+      width: 22px;
+      height: 22px; }
+
+.b_carta .flechas {
+  top: 50% !important;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%); }
+  .b_carta .flechas.prev {
+    left: 8% !important; }
+  .b_carta .flechas.next {
+    right: 8% !important; }
