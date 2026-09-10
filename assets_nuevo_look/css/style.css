@@ -1889,3 +1889,36 @@
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+/* --- CUSTOM LGPB STYLES --- */
+#badge_carrito,
+img[src*="top_canasta.png"],
+.carrito-mobile {
+    display: none !important;
+}
+
+@media only screen and (max-width: 900px) {
+    .mobileMenu {
+        display: none !important;
+    }
+    .menu {
+        display: block !important;
+    }
+    .menu > ul {
+        display: flex !important;
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+        padding: 5px 0 !important;
+    }
+    .menu > ul > li {
+        margin: 3px !important;
+        float: none !important;
+        display: inline-block !important;
+    }
+    .menu > ul > li > a > img {
+        max-height: 40px !important;
+        width: auto !important;
+    }
+}
+
