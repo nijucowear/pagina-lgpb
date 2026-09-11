@@ -1902,64 +1902,6 @@ img[src*="top_canasta.png"],
 
 
 
-@media only screen and (max-width: 900px) {
-    .mobileMenu { display: none !important; }
-    .menu {
-        display: block !important;
-        position: relative !important;
-        height: auto !important;
-        overflow: visible !important;
-        background: transparent !important;
-        margin-top: 10px !important;
-        z-index: 9999 !important;
-    }
-    .hd.homepage { height: auto !important; min-height: auto !important; }
-    .menu > ul {
-        display: flex !important;
-        justify-content: center !important;
-        align-items: flex-start !important;
-        flex-wrap: wrap !important;
-        padding: 5px 0 !important;
-        height: auto !important;
-        position: relative !important;
-    }
-    .menu > ul > li {
-        margin: 5px !important;
-        float: none !important;
-        display: block !important;
-        position: relative !important;
-        height: auto !important;
-        text-align: center !important;
-    }
-    .menu > ul > li > a { display: inline-block !important; height: auto !important; }
-    .menu > ul > li > a > img {
-        max-height: 35px !important;
-        width: auto !important;
-        display: block !important;
-        margin: 0 auto !important;
-    }
-    .menu ul li ul, .menu ul li .dd-in {
-        display: block !important;
-        position: static !important;
-        visibility: visible !important;
-        opacity: 1 !important;
-        width: 100% !important;
-        background: transparent !important;
-        box-shadow: none !important;
-        padding: 5px 0 0 0 !important;
-        margin: 0 !important;
-    }
-    .menu ul li ul li {
-        display: block !important;
-        margin: 5px 0 !important;
-        height: auto !important;
-    }
-    .menu ul li ul li a { height: auto !important; display: inline-block !important; }
-    .menu ul li ul li img {
-        max-height: 25px !important;
-        width: auto !important;
-        display: block !important;
-        margin: 0 auto !important;
-    }
-}
+
+
 
