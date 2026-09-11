@@ -1905,3 +1905,43 @@ img[src*="top_canasta.png"],
 
 
 
+
+/* --- MOBILE MENU FIXES --- */
+.nav-bar-mobile {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    justify-content: flex-end !important;
+}
+.nav-bar-mobile .col {
+    border: none !important;
+}
+
+/* Fix user icon distribution */
+.mobileMenuCont ul > li:last-child .togle-menu img[src*="user.png"] {
+    max-height: 40px !important; /* Make icon smaller */
+    width: auto !important;
+    margin: 0 auto !important;
+}
+.mobileMenuCont ul > li:last-child .dual-menu {
+    display: block !important; /* Force block so flex works inside */
+}
+.mobileMenuCont ul > li:last-child .dual-menu .col {
+    width: 100% !important;
+    border: none !important;
+}
+.mobileMenuCont ul > li:last-child .dual-menu .col ul {
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: row !important;
+    gap: 10px;
+}
+.mobileMenuCont ul > li:last-child .dual-menu .col ul li {
+    border: none !important;
+    width: auto !important;
+}
+.mobileMenuCont ul > li:last-child .dual-menu .col ul li img {
+    max-height: 35px !important;
+    width: auto !important;
+}
+
