@@ -1910,7 +1910,9 @@ img[src*="top_canasta.png"],
 
 
 
-/* --- PROFESSIONAL MOBILE MENU V2 --- */
+
+
+/* --- PROFESSIONAL MOBILE MENU V3 --- */
 @media only screen and (max-width: 900px) {
     .mobileMenu {
         background: transparent !important;
@@ -1920,47 +1922,57 @@ img[src*="top_canasta.png"],
         top: 0 !important;
         left: 0 !important;
         width: 100% !important;
-        z-index: 100 !important;
+        z-index: 1000000 !important;
         height: auto !important;
     }
     .nav-bar-mobile {
         background: transparent !important;
         border: none !important;
         box-shadow: none !important;
-        justify-content: flex-end !important;
+        justify-content: flex-start !important;
         padding: 0 !important;
         height: auto !important;
+        position: relative !important;
+        z-index: 1000002 !important;
     }
     .nav-bar-mobile .col {
         border: none !important;
         padding: 0 !important;
+        display: none !important;
+    }
+    .nav-bar-mobile .col:last-child {
+        display: block !important;
     }
     #mobileBtn {
         background: #900000 !important;
         color: white !important;
-        padding: 4px 2px !important;
+        padding: 8px 12px !important;
         border-radius: 4px !important;
-        font-family: 'Arial', sans-serif !important;
+        font-family: sans-serif !important;
         font-weight: bold !important;
-        font-size: 14px !important;
+        font-size: 20px !important;
         cursor: pointer !important;
         border: 1px solid #ffd700 !important;
         box-shadow: 0 2px 5px rgba(0,0,0,0.5) !important;
         display: inline-block !important;
-        margin: 5px 5px 0 0 !important;
+        margin: 10px 0 0 10px !important;
         height: auto !important;
         line-height: 1 !important;
+        position: relative !important;
     }
     .mobileMenuCont {
         background: #7a0000 !important;
-        border-bottom: 4px solid #ffd700 !important;
-        margin-top: 5px !important;
-        padding-bottom: 30px !important;
-        height: auto !important;
-        max-height: 85vh !important;
+        border: none !important;
+        margin: 0 !important;
+        padding: 60px 0 30px 0 !important;
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100vw !important;
+        height: 100vh !important;
+        max-height: none !important;
         overflow-y: auto !important;
-        position: relative !important;
-        z-index: 101 !important;
+        z-index: 1000001 !important;
     }
     .mobileMenuCont ul {
         display: flex !important;
@@ -2000,6 +2012,7 @@ img[src*="top_canasta.png"],
         padding: 0 !important;
         margin: 0 !important;
         border: none !important;
+        display: block !important;
     }
     .mobileMenuCont .dual-menu .col ul {
         display: flex !important;
