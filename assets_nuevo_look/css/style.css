@@ -1906,42 +1906,123 @@ img[src*="top_canasta.png"],
 
 
 
-/* --- MOBILE MENU FIXES --- */
-.nav-bar-mobile {
-    background: transparent !important;
-    box-shadow: none !important;
-    border: none !important;
-    justify-content: flex-end !important;
-}
-.nav-bar-mobile .col {
-    border: none !important;
-}
 
-/* Fix user icon distribution */
-.mobileMenuCont ul > li:last-child .togle-menu img[src*="user.png"] {
-    max-height: 40px !important; /* Make icon smaller */
-    width: auto !important;
-    margin: 0 auto !important;
-}
-.mobileMenuCont ul > li:last-child .dual-menu {
-    display: block !important; /* Force block so flex works inside */
-}
-.mobileMenuCont ul > li:last-child .dual-menu .col {
-    width: 100% !important;
-    border: none !important;
-}
-.mobileMenuCont ul > li:last-child .dual-menu .col ul {
-    display: flex !important;
-    justify-content: center !important;
-    flex-direction: row !important;
-    gap: 10px;
-}
-.mobileMenuCont ul > li:last-child .dual-menu .col ul li {
-    border: none !important;
-    width: auto !important;
-}
-.mobileMenuCont ul > li:last-child .dual-menu .col ul li img {
-    max-height: 35px !important;
-    width: auto !important;
+
+/* --- PROFESSIONAL MOBILE MENU REVAMP --- */
+@media only screen and (max-width: 900px) {
+    .mobileMenu {
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        z-index: 9999 !important;
+        height: auto !important;
+    }
+    .nav-bar-mobile {
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        justify-content: flex-end !important;
+        padding: 0 !important;
+    }
+    .nav-bar-mobile .col {
+        border: none !important;
+        padding: 0 !important;
+    }
+    #mobileBtn {
+        background: rgba(180, 20, 20, 0.95) !important;
+        color: white !important;
+        padding: 8px 15px !important;
+        border-radius: 20px !important;
+        font-family: 'Arial', sans-serif !important;
+        font-weight: bold !important;
+        font-size: 13px !important;
+        cursor: pointer !important;
+        border: 2px solid #ffd700 !important;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.5) !important;
+        display: inline-block !important;
+        margin: 15px 15px 0 0 !important;
+        letter-spacing: 1px !important;
+        text-transform: uppercase !important;
+    }
+    .mobileMenuCont {
+        background: rgba(120, 10, 10, 0.97) !important;
+        border-bottom: 4px solid #ffd700 !important;
+        margin-top: 10px !important;
+        padding-bottom: 30px !important;
+    }
+    .mobileMenuCont ul {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        padding: 10px 0 !important;
+        margin: 0 !important;
+        gap: 12px !important;
+    }
+    .mobileMenuCont ul li {
+        width: 100% !important;
+        text-align: center !important;
+        margin: 0 !important;
+        border: none !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .mobileMenuCont ul li a {
+        display: inline-block !important;
+        border: none !important;
+    }
+    .mobileMenuCont ul > li > a > img {
+        max-height: 45px !important;
+        width: auto !important;
+        display: inline-block !important;
+    }
+    .mobileMenuCont .dual-menu {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100% !important;
+        margin-top: 5px !important;
+    }
+    .mobileMenuCont .dual-menu .col {
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        border: none !important;
+    }
+    .mobileMenuCont .dual-menu .col ul {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        padding: 0 !important;
+        gap: 8px !important;
+    }
+    .mobileMenuCont .dual-menu .col ul li img {
+        max-height: 38px !important;
+    }
+    .mobileMenuCont ul > li:last-child {
+        margin-top: 20px !important;
+        border-top: 1px solid rgba(255,215,0, 0.3) !important;
+        padding-top: 20px !important;
+        width: 80% !important;
+    }
+    .mobileMenuCont ul > li:last-child .togle-menu img[src*="user.png"] {
+        max-height: 45px !important;
+        margin-bottom: 15px !important;
+    }
+    .mobileMenuCont ul > li:last-child .dual-menu .col ul {
+        flex-direction: row !important;
+        justify-content: center !important;
+        gap: 20px !important;
+    }
+    .mobileMenuCont ul > li:last-child .dual-menu .col ul li {
+        width: auto !important;
+    }
+    .mobileMenuCont ul > li:last-child .dual-menu .col ul li img {
+        max-height: 30px !important;
+    }
 }
 
